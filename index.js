@@ -49,6 +49,7 @@ const determineWinner = (userChoice, computerChoice) => {
       return 'You win!';
     }
   }
+  // secret weapon for the user to always win!
   if (userChoice === 'bomb') {
     return 'You win!'
   }
